@@ -1,0 +1,73 @@
+name: kainok_app
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^6.0.5
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  mobile_number: ^2.1.1
+  flutter_svg: ^2.0.10+1
+  google_sign_in: ^6.2.1
+  pin_code_fields: ^8.0.1
+  sms_autofill: ^2.0.0
+  pin_input_text_field: ^4.5.1
+  geocode: ^1.0.3
+  scroll_snap_list: ^0.9.1
+  swipe_cards: ^2.0.0+1
+  sign_in_with_apple: ^6.1.1
+  the_apple_sign_in: ^1.1.1
+  flutter_typeahead: ^5.2.0
+  flutter_google_places_sdk: ^0.3.2+9
+  dio: ^5.2.0
+  geolocator: ^13.0.1
+  provider: ^6.0.5
+  file_picker: ^8.1.1
+  permission_handler: ^11.3.1
+  fl_country_code_picker: ^0.1.2
+  geocoding: ^3.0.0
+  flutter_localization: ^0.2.1
+  country_code_picker: ^3.0.0
+  flutter_secure_storage: ^9.2.2
+  csc_picker: ^0.2.7
+  carousel_slider: ^5.0.0
+  flutter_switch: ^0.3.2
+  fluttertoast: ^8.1.1
+  smooth_page_indicator: ^1.0.0+2
+  swiping_card_deck: ^1.3.0
+  intl: ^0.19.0
+  flutter_staggered_grid_view: ^0.7.0
+  transparent_image: ^2.0.1
+  platform_device_id: ^1.0.1
+  awesome_notifications: ^0.9.3+1
+  firebase_messaging: ^14.6.5
+  firebase_core: ^2.15.0
+  flutter_local_notifications: ^17.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+    - family: Work Sans
+      fonts:
+        - asset: assets/fonts/WorkSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/WorkSansRomanRegular.ttf
+          weight: 400
