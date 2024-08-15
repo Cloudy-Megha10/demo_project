@@ -1,12 +1,12 @@
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
-import 'package:kainok_app/presentation/navigation_screen/controller/navigation_repository.dart';
-import 'package:kainok_app/presentation/navigation_screen/models/navigation_model.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_tab_container_screen/models/user_logout_response.dart';
-import 'package:kainok_app/routes/app_routes.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
+import 'package:demo_project/presentation/navigation_screen/controller/navigation_repository.dart';
+import 'package:demo_project/presentation/navigation_screen/models/navigation_model.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_tab_container_screen/models/user_logout_response.dart';
+import 'package:demo_project/routes/app_routes.dart';
 
 import '../../../core/models/geo_location_model.dart';
 import '../../../core/utils/color_constant.dart';

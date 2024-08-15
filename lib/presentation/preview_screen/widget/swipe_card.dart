@@ -1,7 +1,7 @@
 import 'dart:ffi';
 
 import 'package:flutter/material.dart';
-import 'package:kainok_app/presentation/preview_screen/widget/card_provider.dart';
+import 'package:demo_project/presentation/preview_screen/widget/card_provider.dart';
 import 'package:provider/provider.dart';
 
 class SwipeCards extends StatefulWidget {

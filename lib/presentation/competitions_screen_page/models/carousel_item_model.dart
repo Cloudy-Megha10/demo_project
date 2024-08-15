@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:kainok_app/core/utils/image_constant.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/models/competition_model.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/models/slider_frame_item_model.dart';
+import 'package:demo_project/core/utils/image_constant.dart';
+import 'package:demo_project/presentation/competitions_screen_page/models/competition_model.dart';
+import 'package:demo_project/presentation/competitions_screen_page/models/slider_frame_item_model.dart';
 
 class CarouselItemModel {
   Rx<String> trendingTxt = Rx("Trending");

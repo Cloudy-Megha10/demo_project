@@ -11,12 +11,12 @@ import '../../theme/app_style.dart';
 import '../../widgets/custom_image_view.dart';
 import 'controller/forgot_password_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/core/utils/validation_functions.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_button_1.dart';
-import 'package:kainok_app/widgets/app_bar/custom_app_bar.dart';
-import 'package:kainok_app/widgets/custom_button.dart';
-import 'package:kainok_app/widgets/custom_text_form_field.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/core/utils/validation_functions.dart';
+import 'package:demo_project/widgets/app_bar/appbar_button_1.dart';
+import 'package:demo_project/widgets/app_bar/custom_app_bar.dart';
+import 'package:demo_project/widgets/custom_button.dart';
+import 'package:demo_project/widgets/custom_text_form_field.dart';
 
 // ignore_for_file: must_be_immutable
 class ForgotPasswordScreen extends GetWidget<ForgotPasswordController> {

@@ -2,14 +2,14 @@ import 'dart:io';
 
 import 'package:file_picker/file_picker.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/presentation/category_listing_screen/controller/category_listing_controller.dart';
-import 'package:kainok_app/presentation/comp_image_listing_screen/controller/image_listing_controller.dart';
-import 'package:kainok_app/presentation/upload_your_entry_screen/controller/upload_your_entry_respository.dart';
-import 'package:kainok_app/presentation/upload_your_entry_screen/models/upload_your_entry_model.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/presentation/category_listing_screen/controller/category_listing_controller.dart';
+import 'package:demo_project/presentation/comp_image_listing_screen/controller/image_listing_controller.dart';
+import 'package:demo_project/presentation/upload_your_entry_screen/controller/upload_your_entry_respository.dart';
+import 'package:demo_project/presentation/upload_your_entry_screen/models/upload_your_entry_model.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/routes/app_routes.dart';
+import 'package:demo_project/routes/app_routes.dart';
 
 import '../../../core/models/geo_location_model.dart';
 import '../../../core/utils/geoLocation_utils.dart';

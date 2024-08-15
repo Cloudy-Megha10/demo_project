@@ -3,9 +3,9 @@ import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:kainok_app/core/utils/date_time_utils.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/widgets/custom_text_form_field.dart';
+import 'package:demo_project/core/utils/date_time_utils.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/widgets/custom_text_form_field.dart';
 
 import '../../../core/utils/color_constant.dart';
 import '../../../core/utils/image_constant.dart';

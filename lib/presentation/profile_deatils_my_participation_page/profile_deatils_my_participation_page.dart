@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/utils/color_constant.dart';
-import 'package:kainok_app/core/utils/image_constant.dart';
-import 'package:kainok_app/core/utils/size_utils.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_page/controller/profile_deatils_my_participation_controller.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_page/models/participated_item_model.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/routes/app_routes.dart';
-import 'package:kainok_app/theme/app_decoration.dart';
-import 'package:kainok_app/theme/app_style.dart';
-import 'package:kainok_app/widgets/custom_image_view.dart';
+import 'package:demo_project/core/utils/color_constant.dart';
+import 'package:demo_project/core/utils/image_constant.dart';
+import 'package:demo_project/core/utils/size_utils.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_page/controller/profile_deatils_my_participation_controller.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_page/models/participated_item_model.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/routes/app_routes.dart';
+import 'package:demo_project/theme/app_decoration.dart';
+import 'package:demo_project/theme/app_style.dart';
+import 'package:demo_project/widgets/custom_image_view.dart';
 
 class ProfileDeatilsMyParticipationPage extends StatelessWidget {
   final ProfileDeatilsMyParticipationController controller =

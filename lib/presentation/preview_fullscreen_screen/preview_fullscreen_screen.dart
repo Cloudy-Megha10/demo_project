@@ -1,5 +1,5 @@
 import 'package:flutter/services.dart';
-import 'package:kainok_app/routes/app_routes.dart';
+import 'package:demo_project/routes/app_routes.dart';
 
 import '../../core/utils/color_constant.dart';
 import '../../core/utils/image_constant.dart';
@@ -10,8 +10,8 @@ import '../../widgets/app_bar/custom_app_bar.dart';
 import '../../widgets/custom_image_view.dart';
 import 'controller/preview_fullscreen_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/widgets/custom_button.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/widgets/custom_button.dart';
 
 // ignore_for_file: must_be_immutable
 class PreviewFullscreenScreen extends GetWidget<PreviewFullscreenController> {

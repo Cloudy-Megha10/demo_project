@@ -9,9 +9,9 @@ import '../admin_dashboard_screen/widgets/admindashboard_item_widget.dart';
 import 'controller/admin_dashboard_controller.dart';
 import 'models/admindashboard_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/widgets/app_bar/custom_app_bar.dart';
-import 'package:kainok_app/widgets/custom_button.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/widgets/app_bar/custom_app_bar.dart';
+import 'package:demo_project/widgets/custom_button.dart';
 
 class AdminDashboardScreen extends GetWidget<AdminDashboardController> {
   @override

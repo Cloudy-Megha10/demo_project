@@ -1,10 +1,10 @@
 import 'package:flutter_google_places_sdk/flutter_google_places_sdk.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:geocoding/geocoding.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/core/utils/date_time_utils.dart';
-import 'package:kainok_app/presentation/user_management_screen/controller/user_management_repository.dart';
-import 'package:kainok_app/presentation/user_management_screen/models/user_management_model.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/core/utils/date_time_utils.dart';
+import 'package:demo_project/presentation/user_management_screen/controller/user_management_repository.dart';
+import 'package:demo_project/presentation/user_management_screen/models/user_management_model.dart';
 import 'package:flutter/material.dart';
 
 import '../../../core/utils/color_constant.dart';

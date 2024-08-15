@@ -1,5 +1,5 @@
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_tab_container_screen/models/user_logout_response.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_tab_container_screen/models/user_logout_response.dart';
 
 import '../../../data/apiClient/api_provider.dart';
 import '../../../data/apiClient/common_response.dart';

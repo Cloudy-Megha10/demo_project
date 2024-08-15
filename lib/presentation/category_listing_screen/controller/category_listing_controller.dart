@@ -2,25 +2,25 @@ import 'package:flutter/material.dart';
 
 import 'package:fluttertoast/fluttertoast.dart';
 
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/core/models/geo_location_model.dart';
-import 'package:kainok_app/core/utils/color_constant.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/core/utils/geoLocation_utils.dart';
-import 'package:kainok_app/data/apiClient/common_response.dart';
-import 'package:kainok_app/presentation/category_listing_screen/controller/category_listing_repository.dart';
-import 'package:kainok_app/presentation/category_listing_screen/models/category_create_guest_user_response.dart';
-import 'package:kainok_app/presentation/category_listing_screen/models/category_item_model.dart';
-import 'package:kainok_app/presentation/category_listing_screen/models/category_listing_model.dart';
-import 'package:kainok_app/presentation/category_listing_screen/models/competitions_by_category_response.dart';
-import 'package:kainok_app/presentation/category_listing_screen/models/vote_item_model.dart';
-import 'package:kainok_app/presentation/comp_image_listing_screen/models/get_particular_competition.dart';
-import 'package:kainok_app/presentation/comp_image_listing_screen/models/image_listing_model.dart';
-import 'package:kainok_app/presentation/preview_screen/models/preview_vote_response.dart';
-import 'package:kainok_app/presentation/voting_screen_page/controller/voting_screen_controller.dart';
-import 'package:kainok_app/routes/app_routes.dart';
-import 'package:kainok_app/widgets/custom_alert_dialog.dart';
-import 'package:kainok_app/widgets/custom_guest_user_alert_dialog.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/core/models/geo_location_model.dart';
+import 'package:demo_project/core/utils/color_constant.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/core/utils/geoLocation_utils.dart';
+import 'package:demo_project/data/apiClient/common_response.dart';
+import 'package:demo_project/presentation/category_listing_screen/controller/category_listing_repository.dart';
+import 'package:demo_project/presentation/category_listing_screen/models/category_create_guest_user_response.dart';
+import 'package:demo_project/presentation/category_listing_screen/models/category_item_model.dart';
+import 'package:demo_project/presentation/category_listing_screen/models/category_listing_model.dart';
+import 'package:demo_project/presentation/category_listing_screen/models/competitions_by_category_response.dart';
+import 'package:demo_project/presentation/category_listing_screen/models/vote_item_model.dart';
+import 'package:demo_project/presentation/comp_image_listing_screen/models/get_particular_competition.dart';
+import 'package:demo_project/presentation/comp_image_listing_screen/models/image_listing_model.dart';
+import 'package:demo_project/presentation/preview_screen/models/preview_vote_response.dart';
+import 'package:demo_project/presentation/voting_screen_page/controller/voting_screen_controller.dart';
+import 'package:demo_project/routes/app_routes.dart';
+import 'package:demo_project/widgets/custom_alert_dialog.dart';
+import 'package:demo_project/widgets/custom_guest_user_alert_dialog.dart';
 import 'package:swipe_cards/swipe_cards.dart';
 
 class CategoryListingController extends GetxController {

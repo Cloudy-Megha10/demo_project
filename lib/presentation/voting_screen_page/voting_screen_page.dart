@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:get/get.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_tab_container_screen/controller/profile_deatils_my_participation_tab_container_controller.dart';
-import 'package:kainok_app/presentation/winner_container_screen/controller/winner_container_controller.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_tab_container_screen/controller/profile_deatils_my_participation_tab_container_controller.dart';
+import 'package:demo_project/presentation/winner_container_screen/controller/winner_container_controller.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../../core/utils/color_constant.dart';

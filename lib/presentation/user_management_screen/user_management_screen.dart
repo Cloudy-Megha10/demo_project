@@ -11,13 +11,13 @@ import '../edit_profile_screen/controller/edit_profile_controller.dart';
 import '../edit_user_profile_screen/controller/edit_user_profile_controller.dart';
 import 'controller/user_management_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_image.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_title.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_subtitle.dart';
-import 'package:kainok_app/widgets/app_bar/custom_app_bar.dart';
-import 'package:kainok_app/widgets/custom_icon_button.dart';
-import 'package:kainok_app/widgets/custom_text_form_field.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/widgets/app_bar/appbar_image.dart';
+import 'package:demo_project/widgets/app_bar/appbar_title.dart';
+import 'package:demo_project/widgets/app_bar/appbar_subtitle.dart';
+import 'package:demo_project/widgets/app_bar/custom_app_bar.dart';
+import 'package:demo_project/widgets/custom_icon_button.dart';
+import 'package:demo_project/widgets/custom_text_form_field.dart';
 
 class UserManagementScreen extends GetWidget<UserManagementController> {
   Future<void> _refreshPage() async {

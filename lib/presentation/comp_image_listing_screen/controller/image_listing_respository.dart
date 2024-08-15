@@ -1,4 +1,4 @@
-import 'package:kainok_app/presentation/comp_image_listing_screen/models/get_comp_all_img_response.dart';
+import 'package:demo_project/presentation/comp_image_listing_screen/models/get_comp_all_img_response.dart';
 import '../../../core/utils/flutter_secure_storage.dart';
 import '../../../data/apiClient/api_provider.dart';
 import '../../../data/apiClient/common_response.dart';

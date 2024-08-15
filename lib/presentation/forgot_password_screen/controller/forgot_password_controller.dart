@@ -1,7 +1,7 @@
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/presentation/forgot_password_screen/models/forgot_password_model.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/presentation/forgot_password_screen/models/forgot_password_model.dart';
 import 'package:flutter/material.dart';
 
 import '../../../core/models/geo_location_model.dart';

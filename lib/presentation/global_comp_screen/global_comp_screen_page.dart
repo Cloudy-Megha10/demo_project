@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
-import 'package:kainok_app/presentation/winner_container_screen/controller/winner_container_controller.dart';
+import 'package:demo_project/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
+import 'package:demo_project/presentation/winner_container_screen/controller/winner_container_controller.dart';
 
 import '../../core/utils/color_constant.dart';
 import '../../core/utils/flutter_secure_storage.dart';

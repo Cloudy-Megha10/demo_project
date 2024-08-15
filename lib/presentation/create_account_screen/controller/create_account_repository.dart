@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:kainok_app/presentation/create_account_screen/models/register_response.dart';
-import 'package:kainok_app/presentation/create_account_screen/models/register_through_google_response.dart';
-import 'package:kainok_app/presentation/sign_in_screen/models/sign_in_response.dart';
+import 'package:demo_project/presentation/create_account_screen/models/register_response.dart';
+import 'package:demo_project/presentation/create_account_screen/models/register_through_google_response.dart';
+import 'package:demo_project/presentation/sign_in_screen/models/sign_in_response.dart';
 
 import '../../../data/apiClient/api_provider.dart';
 import '../../../data/apiClient/common_response.dart';

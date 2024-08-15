@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:kainok_app/core/utils/color_constant.dart';
-import 'package:kainok_app/core/utils/image_constant.dart';
-import 'package:kainok_app/core/utils/size_utils.dart';
-import 'package:kainok_app/presentation/my_comp_img_listing_screen/controller/my_comp_img_listing_controller.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/controller/my_competitions_controller.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/widgets/comp_details_bottom_sheet.dart';
-import 'package:kainok_app/routes/app_routes.dart';
-import 'package:kainok_app/theme/app_decoration.dart';
-import 'package:kainok_app/theme/app_style.dart';
-import 'package:kainok_app/widgets/custom_image_view.dart';
+import 'package:demo_project/core/utils/color_constant.dart';
+import 'package:demo_project/core/utils/image_constant.dart';
+import 'package:demo_project/core/utils/size_utils.dart';
+import 'package:demo_project/presentation/my_comp_img_listing_screen/controller/my_comp_img_listing_controller.dart';
+import 'package:demo_project/presentation/my_competitions_screen/controller/my_competitions_controller.dart';
+import 'package:demo_project/presentation/my_competitions_screen/widgets/comp_details_bottom_sheet.dart';
+import 'package:demo_project/routes/app_routes.dart';
+import 'package:demo_project/theme/app_decoration.dart';
+import 'package:demo_project/theme/app_style.dart';
+import 'package:demo_project/widgets/custom_image_view.dart';
 
 class MyCompetitionsScreen extends StatelessWidget {
   MyCompetitionsController controller = Get.put(MyCompetitionsController());

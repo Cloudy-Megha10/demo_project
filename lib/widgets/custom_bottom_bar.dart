@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:kainok_app/theme/app_decoration.dart';
+import 'package:demo_project/theme/app_decoration.dart';
 import '../core/utils/color_constant.dart';
 import '../core/utils/image_constant.dart';
 import '../core/utils/size_utils.dart';

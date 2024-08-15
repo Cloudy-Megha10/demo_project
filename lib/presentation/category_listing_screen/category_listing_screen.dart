@@ -1,24 +1,24 @@
 import 'package:flutter/material.dart';
 
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/core/utils/color_constant.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/core/utils/image_constant.dart';
-import 'package:kainok_app/core/utils/size_utils.dart';
-import 'package:kainok_app/presentation/category_listing_screen/controller/category_listing_controller.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
-import 'package:kainok_app/presentation/voting_screen_page/controller/voting_screen_controller.dart';
-import 'package:kainok_app/routes/app_routes.dart';
-import 'package:kainok_app/theme/app_decoration.dart';
-import 'package:kainok_app/theme/app_style.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_image.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_title.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_subtitle.dart';
-import 'package:kainok_app/widgets/app_bar/custom_app_bar.dart';
-import 'package:kainok_app/widgets/custom_alert_dialog.dart';
-import 'package:kainok_app/widgets/custom_button.dart';
-import 'package:kainok_app/widgets/custom_guest_user_alert_dialog.dart';
-import 'package:kainok_app/widgets/custom_image_view.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/core/utils/color_constant.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/core/utils/image_constant.dart';
+import 'package:demo_project/core/utils/size_utils.dart';
+import 'package:demo_project/presentation/category_listing_screen/controller/category_listing_controller.dart';
+import 'package:demo_project/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
+import 'package:demo_project/presentation/voting_screen_page/controller/voting_screen_controller.dart';
+import 'package:demo_project/routes/app_routes.dart';
+import 'package:demo_project/theme/app_decoration.dart';
+import 'package:demo_project/theme/app_style.dart';
+import 'package:demo_project/widgets/app_bar/appbar_image.dart';
+import 'package:demo_project/widgets/app_bar/appbar_title.dart';
+import 'package:demo_project/widgets/app_bar/appbar_subtitle.dart';
+import 'package:demo_project/widgets/app_bar/custom_app_bar.dart';
+import 'package:demo_project/widgets/custom_alert_dialog.dart';
+import 'package:demo_project/widgets/custom_button.dart';
+import 'package:demo_project/widgets/custom_guest_user_alert_dialog.dart';
+import 'package:demo_project/widgets/custom_image_view.dart';
 
 class CategoryListingScreen extends GetWidget<CategoryListingController> {
   @override

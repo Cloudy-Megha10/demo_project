@@ -1,7 +1,7 @@
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/presentation/new_password_screen/controller/new_password_repository.dart';
-import 'package:kainok_app/presentation/new_password_screen/models/new_password_model.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/presentation/new_password_screen/controller/new_password_repository.dart';
+import 'package:demo_project/presentation/new_password_screen/models/new_password_model.dart';
 import 'package:flutter/material.dart';
 
 import '../../../core/utils/color_constant.dart';

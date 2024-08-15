@@ -2,9 +2,9 @@ import 'package:fluttertoast/fluttertoast.dart';
 
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
-import 'package:kainok_app/presentation/create_account_screen/models/register_through_google_response.dart';
-import 'package:kainok_app/presentation/sign_in_screen/models/sign_in_response.dart';
+import 'package:demo_project/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
+import 'package:demo_project/presentation/create_account_screen/models/register_through_google_response.dart';
+import 'package:demo_project/presentation/sign_in_screen/models/sign_in_response.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:platform_device_id/platform_device_id.dart';
 

@@ -12,10 +12,10 @@ import '../create_edit_user_one_screen/widgets/listnonregister_item_widget.dart'
 import 'controller/create_edit_user_one_controller.dart';
 import 'models/listnonregister_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_title.dart';
-import 'package:kainok_app/widgets/app_bar/custom_app_bar.dart';
-import 'package:kainok_app/widgets/custom_button.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/widgets/app_bar/appbar_title.dart';
+import 'package:demo_project/widgets/app_bar/custom_app_bar.dart';
+import 'package:demo_project/widgets/custom_button.dart';
 
 class CreateEditUserOneScreen extends GetWidget<CreateEditUserOneController> {
   Future<void> _refreshPage() async {

@@ -1,5 +1,5 @@
-import 'package:kainok_app/presentation/create_edit_user_screen/widgets/search_city_bottomModalSheet.dart';
-import 'package:kainok_app/widgets/custom_check_box.dart';
+import 'package:demo_project/presentation/create_edit_user_screen/widgets/search_city_bottomModalSheet.dart';
+import 'package:demo_project/widgets/custom_check_box.dart';
 
 import '../../core/utils/color_constant.dart';
 import '../../core/utils/image_constant.dart';
@@ -12,11 +12,11 @@ import '../../widgets/custom_button.dart';
 import '../../widgets/custom_image_view.dart';
 import '../user_management_screen/controller/user_management_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/core/utils/validation_functions.dart';
-import 'package:kainok_app/widgets/app_bar/custom_app_bar.dart';
-import 'package:kainok_app/widgets/custom_drop_down.dart';
-import 'package:kainok_app/widgets/custom_text_form_field.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/core/utils/validation_functions.dart';
+import 'package:demo_project/widgets/app_bar/custom_app_bar.dart';
+import 'package:demo_project/widgets/custom_drop_down.dart';
+import 'package:demo_project/widgets/custom_text_form_field.dart';
 
 // ignore_for_file: must_be_immutable
 class CreateEditUserScreen extends GetView<UserManagementController> {

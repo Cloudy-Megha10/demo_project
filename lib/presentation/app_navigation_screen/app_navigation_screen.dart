@@ -5,7 +5,7 @@ import '../../theme/app_decoration.dart';
 import '../../theme/app_style.dart';
 import 'controller/app_navigation_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
+import 'package:demo_project/core/app_export.dart';
 
 class AppNavigationScreen extends GetWidget<AppNavigationController> {
   @override

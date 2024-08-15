@@ -6,8 +6,8 @@ import '../../theme/app_style.dart';
 import '../../widgets/custom_image_view.dart';
 import 'controller/action_sheet_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/widgets/custom_button.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/widgets/custom_button.dart';
 
 class ActionSheetScreen extends GetWidget<ActionSheetController> {
   @override

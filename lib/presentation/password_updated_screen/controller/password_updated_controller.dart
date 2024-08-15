@@ -1,5 +1,5 @@
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/presentation/password_updated_screen/models/password_updated_model.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/presentation/password_updated_screen/models/password_updated_model.dart';
 
 class PasswordUpdatedController extends GetxController {
   Rx<PasswordUpdatedModel> passwordUpdatedModelObj = PasswordUpdatedModel().obs;

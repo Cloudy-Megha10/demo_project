@@ -224,7 +224,7 @@ final Map<String, String> enUs = {
   "lbl_body_art": "Body Art",
   "lbl_days_to_end": "Days to End",
   "lbl_days_to_upload": "Days to Upload",
-  "lbl_kainok_app": "PIXAT",
+  "lbl_demo_project": "PIXAT",
   "lbl_login": "Login",
   "lbl_competitions": "Competitions",
   "lbl_voting": "Voting",

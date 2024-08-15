@@ -1,17 +1,17 @@
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:intl/intl.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/core/utils/color_constant.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/data/apiClient/common_response.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/controller/my_comp_bottom_sheet_controller.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/controller/my_competitions_repository.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/models/comp_details_response.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/core/utils/color_constant.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/data/apiClient/common_response.dart';
+import 'package:demo_project/presentation/my_competitions_screen/controller/my_comp_bottom_sheet_controller.dart';
+import 'package:demo_project/presentation/my_competitions_screen/controller/my_competitions_repository.dart';
+import 'package:demo_project/presentation/my_competitions_screen/models/comp_details_response.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/models/my_competitions_item_model.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/models/my_competitions_model.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/models/my_competitions_response.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/models/update_comp_response.dart';
+import 'package:demo_project/presentation/my_competitions_screen/models/my_competitions_item_model.dart';
+import 'package:demo_project/presentation/my_competitions_screen/models/my_competitions_model.dart';
+import 'package:demo_project/presentation/my_competitions_screen/models/my_competitions_response.dart';
+import 'package:demo_project/presentation/my_competitions_screen/models/update_comp_response.dart';
 
 class MyCompetitionsController extends GetxController {
   MyCompetitionsRepository myCompetitionsRepository =

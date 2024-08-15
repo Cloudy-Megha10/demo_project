@@ -1,11 +1,11 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:get/get.dart';
-import 'package:kainok_app/core/models/refresh_screen_service.dart';
-import 'package:kainok_app/presentation/comp_image_listing_screen/controller/image_listing_controller.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/models/competition_model.dart';
-import 'package:kainok_app/presentation/global_comp_screen/controller/global_comp_screen_controller.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_tab_container_screen/controller/profile_deatils_my_participation_tab_container_controller.dart';
-import 'package:kainok_app/presentation/winner_container_screen/controller/winner_container_controller.dart';
+import 'package:demo_project/core/models/refresh_screen_service.dart';
+import 'package:demo_project/presentation/comp_image_listing_screen/controller/image_listing_controller.dart';
+import 'package:demo_project/presentation/competitions_screen_page/models/competition_model.dart';
+import 'package:demo_project/presentation/global_comp_screen/controller/global_comp_screen_controller.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_tab_container_screen/controller/profile_deatils_my_participation_tab_container_controller.dart';
+import 'package:demo_project/presentation/winner_container_screen/controller/winner_container_controller.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../../core/utils/color_constant.dart';

@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
-import 'package:kainok_app/core/utils/image_constant.dart';
-import 'package:kainok_app/core/utils/size_utils.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
-import 'package:kainok_app/presentation/image_details_screen_container_screen/controller/image_details_screen_container_controller.dart';
-import 'package:kainok_app/presentation/upload_competition_screen/upload_competition_screen.dart';
-import 'package:kainok_app/presentation/voting_screen_page/controller/voting_screen_controller.dart';
-import 'package:kainok_app/routes/app_routes.dart';
-import 'package:kainok_app/theme/app_decoration.dart';
-import 'package:kainok_app/widgets/custom_bottom_bar.dart';
-import 'package:kainok_app/widgets/custom_image_view.dart';
+import 'package:demo_project/core/utils/image_constant.dart';
+import 'package:demo_project/core/utils/size_utils.dart';
+import 'package:demo_project/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
+import 'package:demo_project/presentation/image_details_screen_container_screen/controller/image_details_screen_container_controller.dart';
+import 'package:demo_project/presentation/upload_competition_screen/upload_competition_screen.dart';
+import 'package:demo_project/presentation/voting_screen_page/controller/voting_screen_controller.dart';
+import 'package:demo_project/routes/app_routes.dart';
+import 'package:demo_project/theme/app_decoration.dart';
+import 'package:demo_project/widgets/custom_bottom_bar.dart';
+import 'package:demo_project/widgets/custom_image_view.dart';
 
 class ImageDetailsScreenContainerScreen
     extends GetWidget<ImageDetailsScreenContainerController> {

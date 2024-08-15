@@ -1,7 +1,7 @@
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_vote_page/controller/profile_vote_repository.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_vote_page/models/profile_deatils_my_vote_model.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/presentation/profile_deatils_my_vote_page/controller/profile_vote_repository.dart';
+import 'package:demo_project/presentation/profile_deatils_my_vote_page/models/profile_deatils_my_vote_model.dart';
 
 import '../../../core/utils/color_constant.dart';
 import '../../../core/utils/flutter_secure_storage.dart';

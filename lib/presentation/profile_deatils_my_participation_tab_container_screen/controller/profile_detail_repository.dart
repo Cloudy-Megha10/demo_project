@@ -3,13 +3,13 @@ import 'dart:io';
 
 import 'package:http/http.dart' as http;
 
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/data/apiClient/api_provider.dart';
-import 'package:kainok_app/data/apiClient/common_response.dart';
-import 'package:kainok_app/data/apiClient/url_list.dart';
-import 'package:kainok_app/presentation/edit_profile_screen/models/get_user_response.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_tab_container_screen/models/user_logout_response.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_tab_container_screen/models/user_profile_update_response.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/data/apiClient/api_provider.dart';
+import 'package:demo_project/data/apiClient/common_response.dart';
+import 'package:demo_project/data/apiClient/url_list.dart';
+import 'package:demo_project/presentation/edit_profile_screen/models/get_user_response.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_tab_container_screen/models/user_logout_response.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_tab_container_screen/models/user_profile_update_response.dart';
 
 class ProfileRepository {
   ApiProvider _provider = ApiProvider();

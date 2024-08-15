@@ -2,13 +2,13 @@ import 'dart:convert';
 
 import 'package:intl/intl.dart';
 
-import 'package:kainok_app/data/apiClient/api_provider.dart';
-import 'package:kainok_app/data/apiClient/common_response.dart';
-import 'package:kainok_app/data/apiClient/url_list.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/models/comp_details_response.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/models/get_categories_response.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/models/my_competitions_response.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/models/update_comp_response.dart';
+import 'package:demo_project/data/apiClient/api_provider.dart';
+import 'package:demo_project/data/apiClient/common_response.dart';
+import 'package:demo_project/data/apiClient/url_list.dart';
+import 'package:demo_project/presentation/my_competitions_screen/models/comp_details_response.dart';
+import 'package:demo_project/presentation/my_competitions_screen/models/get_categories_response.dart';
+import 'package:demo_project/presentation/my_competitions_screen/models/my_competitions_response.dart';
+import 'package:demo_project/presentation/my_competitions_screen/models/update_comp_response.dart';
 
 class MyCompetitionsRepository {
   ApiProvider _provider = ApiProvider();

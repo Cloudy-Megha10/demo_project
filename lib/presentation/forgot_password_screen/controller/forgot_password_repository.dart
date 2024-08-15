@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:kainok_app/data/apiClient/api_provider.dart';
+import 'package:demo_project/data/apiClient/api_provider.dart';
 
 import '../../../data/apiClient/common_response.dart';
 import '../../../data/apiClient/url_list.dart';

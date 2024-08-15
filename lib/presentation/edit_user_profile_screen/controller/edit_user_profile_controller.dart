@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_google_places_sdk/flutter_google_places_sdk.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:geocoding/geocoding.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_tab_container_screen/controller/profile_deatils_my_participation_tab_container_controller.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_tab_container_screen/controller/profile_deatils_my_participation_tab_container_controller.dart';
 
 import '../../../core/models/geo_location_model.dart';
 import '../../../core/utils/color_constant.dart';

@@ -1,7 +1,7 @@
-import 'package:kainok_app/data/apiClient/api_provider.dart';
-import 'package:kainok_app/data/apiClient/common_response.dart';
-import 'package:kainok_app/data/apiClient/url_list.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_page/models/profile_get_response.dart';
+import 'package:demo_project/data/apiClient/api_provider.dart';
+import 'package:demo_project/data/apiClient/common_response.dart';
+import 'package:demo_project/data/apiClient/url_list.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_page/models/profile_get_response.dart';
 
 class ProfileDetailRepository {
   ApiProvider _provider = ApiProvider();

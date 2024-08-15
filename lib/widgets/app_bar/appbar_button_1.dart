@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/widgets/custom_button.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/widgets/custom_button.dart';
 
 import '../../core/utils/image_constant.dart';
 import '../../core/utils/size_utils.dart';

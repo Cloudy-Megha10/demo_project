@@ -4,8 +4,8 @@ import 'package:get/get.dart';
 import 'package:get/get_rx/src/rx_types/rx_types.dart';
 import 'package:get/get_state_manager/src/simple/get_controllers.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
-import 'package:kainok_app/presentation/sign_up_guest_user_screen/controller/signup_guest_user_.dart';
+import 'package:demo_project/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
+import 'package:demo_project/presentation/sign_up_guest_user_screen/controller/signup_guest_user_.dart';
 
 import '../../../core/models/geo_location_model.dart';
 import '../../../core/utils/flutter_secure_storage.dart';
