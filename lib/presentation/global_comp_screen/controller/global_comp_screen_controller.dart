@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/presentation/global_comp_screen/models/get_category_response.dart';
-import 'package:kainok_app/presentation/voting_screen_page/models/slider_frame_item_model.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/presentation/global_comp_screen/models/get_category_response.dart';
+import 'package:demo_project/presentation/voting_screen_page/models/slider_frame_item_model.dart';
 
 import '../../../core/models/geo_location_model.dart';
 import '../../../core/utils/geoLocation_utils.dart';

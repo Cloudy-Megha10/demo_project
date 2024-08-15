@@ -1,14 +1,14 @@
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:kainok_app/core/models/refresh_screen_service.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/presentation/comp_image_listing_screen/controller/image_listing_controller.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_page/controller/profile_deatils_my_participation_controller.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_tab_container_screen/profile_deatils_my_participation_tab_container_screen.dart';
-import 'package:kainok_app/theme/app_decoration.dart';
-import 'package:kainok_app/theme/app_style.dart';
-import 'package:kainok_app/widgets/custom_bottom_bar.dart';
-import 'package:kainok_app/widgets/custom_button.dart';
+import 'package:demo_project/core/models/refresh_screen_service.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/presentation/comp_image_listing_screen/controller/image_listing_controller.dart';
+import 'package:demo_project/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_page/controller/profile_deatils_my_participation_controller.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_tab_container_screen/profile_deatils_my_participation_tab_container_screen.dart';
+import 'package:demo_project/theme/app_decoration.dart';
+import 'package:demo_project/theme/app_style.dart';
+import 'package:demo_project/widgets/custom_bottom_bar.dart';
+import 'package:demo_project/widgets/custom_button.dart';
 import '../../core/utils/color_constant.dart';
 import '../../core/utils/image_constant.dart';
 import '../../core/utils/size_utils.dart';
@@ -17,10 +17,10 @@ import '../../widgets/app_bar/appbar_subtitle.dart';
 import '../../widgets/custom_image_view.dart';
 import '../category_listing_screen/controller/category_listing_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_image.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_title.dart';
-import 'package:kainok_app/widgets/app_bar/custom_app_bar.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/widgets/app_bar/appbar_image.dart';
+import 'package:demo_project/widgets/app_bar/appbar_title.dart';
+import 'package:demo_project/widgets/app_bar/custom_app_bar.dart';
 
 class ImageListingScreen extends GetView<CompImageListingController> {
   CategoryListingController categoryListingController =

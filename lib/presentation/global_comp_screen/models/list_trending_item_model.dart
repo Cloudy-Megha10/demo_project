@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:kainok_app/core/utils/image_constant.dart';
-import 'package:kainok_app/core/utils/size_utils.dart';
-import 'package:kainok_app/presentation/voting_screen_page/models/slider_frame_item_model.dart';
+import 'package:demo_project/core/utils/image_constant.dart';
+import 'package:demo_project/core/utils/size_utils.dart';
+import 'package:demo_project/presentation/voting_screen_page/models/slider_frame_item_model.dart';
 
 import '../../../data/models/selectionPopupModel/selection_popup_model.dart';
 import 'adventure_item_model.dart';

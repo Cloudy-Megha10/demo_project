@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
 import '../../core/utils/color_constant.dart';

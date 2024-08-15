@@ -3,8 +3,8 @@ import 'package:fl_country_code_picker/fl_country_code_picker.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:kainok_app/core/utils/image_constant.dart';
-import 'package:kainok_app/routes/app_routes.dart';
+import 'package:demo_project/core/utils/image_constant.dart';
+import 'package:demo_project/routes/app_routes.dart';
 
 import 'core/app_export.dart';
 import 'core/models/refresh_screen_service.dart';

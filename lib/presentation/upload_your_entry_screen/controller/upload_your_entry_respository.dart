@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
 import 'package:sms_autofill/sms_autofill.dart';
 
 import '../../../data/apiClient/api_provider.dart';

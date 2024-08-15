@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/utils/color_constant.dart';
+import 'package:demo_project/core/utils/color_constant.dart';
 
 class CustomRadioWidget<T> extends StatelessWidget {
   final T value;

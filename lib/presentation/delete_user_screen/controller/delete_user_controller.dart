@@ -1,5 +1,5 @@
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/presentation/delete_user_screen/models/delete_user_model.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/presentation/delete_user_screen/models/delete_user_model.dart';
 import 'package:flutter/material.dart';
 
 class DeleteUserController extends GetxController {

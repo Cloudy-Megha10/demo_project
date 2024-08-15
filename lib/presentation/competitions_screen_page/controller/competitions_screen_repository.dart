@@ -1,14 +1,14 @@
 import 'dart:convert';
 
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/data/apiClient/api_provider.dart';
-import 'package:kainok_app/data/apiClient/common_response.dart';
-import 'package:kainok_app/data/apiClient/url_list.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/models/carousel_competition_response.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/models/competition_response.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/models/competitions_screen_device_reg_response.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/models/create_guest_user_response.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/models/get_near_by_comp_to_participate_response.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/data/apiClient/api_provider.dart';
+import 'package:demo_project/data/apiClient/common_response.dart';
+import 'package:demo_project/data/apiClient/url_list.dart';
+import 'package:demo_project/presentation/competitions_screen_page/models/carousel_competition_response.dart';
+import 'package:demo_project/presentation/competitions_screen_page/models/competition_response.dart';
+import 'package:demo_project/presentation/competitions_screen_page/models/competitions_screen_device_reg_response.dart';
+import 'package:demo_project/presentation/competitions_screen_page/models/create_guest_user_response.dart';
+import 'package:demo_project/presentation/competitions_screen_page/models/get_near_by_comp_to_participate_response.dart';
 
 class CompetitionsScreenRepository {
   ApiProvider _provider = ApiProvider();

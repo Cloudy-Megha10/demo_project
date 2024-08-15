@@ -1,11 +1,11 @@
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/core/utils/color_constant.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/data/apiClient/common_response.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_page/controller/profile_detail_repository.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_page/models/participated_item_model.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_page/models/profile_get_response.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/core/utils/color_constant.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/data/apiClient/common_response.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_page/controller/profile_detail_repository.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_page/models/participated_item_model.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_page/models/profile_get_response.dart';
 
 class ProfileDeatilsMyParticipationController extends GetxController {
   RxList<ParticipatedImageItemModel> myParticipedImages = RxList();

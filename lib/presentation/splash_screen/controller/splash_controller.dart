@@ -1,7 +1,7 @@
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
-import 'package:kainok_app/presentation/splash_screen/controller/splash_repository.dart';
+import 'package:demo_project/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
+import 'package:demo_project/presentation/splash_screen/controller/splash_repository.dart';
 import 'package:mobile_number/mobile_number.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:platform_device_id/platform_device_id.dart';

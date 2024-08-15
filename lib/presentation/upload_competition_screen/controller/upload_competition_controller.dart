@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:file_picker/file_picker.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
-import 'package:kainok_app/presentation/upload_competition_screen/controller/upload_competition_respository.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
+import 'package:demo_project/presentation/upload_competition_screen/controller/upload_competition_respository.dart';
 import 'package:flutter/material.dart';
 
 import '../../../core/models/geo_location_model.dart';

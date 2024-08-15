@@ -1,4 +1,4 @@
-import 'package:kainok_app/core/app_export.dart';
+import 'package:demo_project/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 import '../../../data/models/selectionPopupModel/selection_popup_model.dart';

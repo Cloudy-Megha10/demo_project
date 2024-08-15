@@ -26,7 +26,7 @@ class SplashScreen extends GetWidget<SplashController> {
                           width: getSize(78)),
                       Padding(
                           padding: getPadding(top: 15, bottom: 5),
-                          child: Text("lbl_kainok_app".tr,
+                          child: Text("lbl_demo_project".tr,
                               overflow: TextOverflow.ellipsis,
                               textAlign: TextAlign.left,
                               style: AppStyle.txtAllerBold28))

@@ -1,14 +1,14 @@
 import 'dart:convert';
 
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/data/apiClient/api_provider.dart';
-import 'package:kainok_app/data/apiClient/common_response.dart';
-import 'package:kainok_app/data/apiClient/url_list.dart';
-import 'package:kainok_app/presentation/category_listing_screen/models/category_create_guest_user_response.dart';
-import 'package:kainok_app/presentation/category_listing_screen/models/competitions_by_category_response.dart';
-import 'package:kainok_app/presentation/category_listing_screen/models/vote_item_model.dart';
-import 'package:kainok_app/presentation/comp_image_listing_screen/models/get_particular_competition.dart';
-import 'package:kainok_app/presentation/preview_screen/models/preview_vote_response.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/data/apiClient/api_provider.dart';
+import 'package:demo_project/data/apiClient/common_response.dart';
+import 'package:demo_project/data/apiClient/url_list.dart';
+import 'package:demo_project/presentation/category_listing_screen/models/category_create_guest_user_response.dart';
+import 'package:demo_project/presentation/category_listing_screen/models/competitions_by_category_response.dart';
+import 'package:demo_project/presentation/category_listing_screen/models/vote_item_model.dart';
+import 'package:demo_project/presentation/comp_image_listing_screen/models/get_particular_competition.dart';
+import 'package:demo_project/presentation/preview_screen/models/preview_vote_response.dart';
 
 class CategoryListingRepository {
   ApiProvider _provider = ApiProvider();

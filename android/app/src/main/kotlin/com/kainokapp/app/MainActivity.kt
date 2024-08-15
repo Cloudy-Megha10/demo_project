@@ -1,4 +1,4 @@
-package com.kainokapp.app
+package com.demoproject.app
 
 import io.flutter.embedding.android.FlutterActivity
 

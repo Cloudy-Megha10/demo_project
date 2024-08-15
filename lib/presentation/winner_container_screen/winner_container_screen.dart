@@ -1,23 +1,23 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/core/utils/color_constant.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/core/utils/image_constant.dart';
-import 'package:kainok_app/core/utils/size_utils.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_tab_container_screen/controller/profile_deatils_my_participation_tab_container_controller.dart';
-import 'package:kainok_app/presentation/voting_screen_page/controller/voting_screen_controller.dart';
-import 'package:kainok_app/presentation/winner_container_screen/controller/winner_container_controller.dart';
-import 'package:kainok_app/routes/app_routes.dart';
-import 'package:kainok_app/theme/app_decoration.dart';
-import 'package:kainok_app/theme/app_style.dart';
-import 'package:kainok_app/widgets/custom_alert_dialog.dart';
-import 'package:kainok_app/widgets/custom_bottom_bar.dart';
-import 'package:kainok_app/widgets/custom_button.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/core/utils/color_constant.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/core/utils/image_constant.dart';
+import 'package:demo_project/core/utils/size_utils.dart';
+import 'package:demo_project/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_tab_container_screen/controller/profile_deatils_my_participation_tab_container_controller.dart';
+import 'package:demo_project/presentation/voting_screen_page/controller/voting_screen_controller.dart';
+import 'package:demo_project/presentation/winner_container_screen/controller/winner_container_controller.dart';
+import 'package:demo_project/routes/app_routes.dart';
+import 'package:demo_project/theme/app_decoration.dart';
+import 'package:demo_project/theme/app_style.dart';
+import 'package:demo_project/widgets/custom_alert_dialog.dart';
+import 'package:demo_project/widgets/custom_bottom_bar.dart';
+import 'package:demo_project/widgets/custom_button.dart';
 import 'dart:math' as math;
 
-import 'package:kainok_app/widgets/custom_image_view.dart';
+import 'package:demo_project/widgets/custom_image_view.dart';
 
 class WinnerContainerScreen extends StatefulWidget {
   @override

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/presentation/create_edit_user_one_screen/controller/vote_settings_repository.dart';
-import 'package:kainok_app/presentation/create_edit_user_one_screen/models/create_edit_user_one_model.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/presentation/create_edit_user_one_screen/controller/vote_settings_repository.dart';
+import 'package:demo_project/presentation/create_edit_user_one_screen/models/create_edit_user_one_model.dart';
 
 import '../../../core/utils/color_constant.dart';
 import '../../../data/apiClient/common_response.dart';

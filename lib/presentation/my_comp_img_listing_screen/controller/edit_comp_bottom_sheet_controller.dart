@@ -1,9 +1,9 @@
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:intl/intl.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/models/comp_details_response.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/presentation/my_competitions_screen/models/comp_details_response.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/models/get_categories_response.dart';
+import 'package:demo_project/presentation/my_competitions_screen/models/get_categories_response.dart';
 
 import '../../../core/utils/color_constant.dart';
 import '../../../core/utils/flutter_secure_storage.dart';

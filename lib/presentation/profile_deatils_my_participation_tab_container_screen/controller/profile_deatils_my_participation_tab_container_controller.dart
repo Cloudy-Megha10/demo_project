@@ -4,25 +4,25 @@ import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/core/models/geo_location_model.dart';
-import 'package:kainok_app/core/utils/color_constant.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/core/utils/geoLocation_utils.dart';
-import 'package:kainok_app/data/apiClient/common_response.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
-import 'package:kainok_app/presentation/edit_profile_screen/models/get_user_response.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/controller/my_competitions_controller.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_page/controller/profile_deatils_my_participation_controller.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_tab_container_screen/controller/profile_detail_repository.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_tab_container_screen/models/profile_deatils_my_participation_tab_container_model.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_tab_container_screen/models/user_logout_response.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_tab_container_screen/models/user_profile_update_response.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_vote_page/controller/profile_deatils_my_vote_controller.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_winnings_page/controller/profile_deatils_my_winnings_controller.dart';
-import 'package:kainok_app/presentation/voting_screen_page/controller/voting_screen_controller.dart';
-import 'package:kainok_app/routes/app_routes.dart';
-import 'package:kainok_app/widgets/custom_bottom_bar.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/core/models/geo_location_model.dart';
+import 'package:demo_project/core/utils/color_constant.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/core/utils/geoLocation_utils.dart';
+import 'package:demo_project/data/apiClient/common_response.dart';
+import 'package:demo_project/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
+import 'package:demo_project/presentation/edit_profile_screen/models/get_user_response.dart';
+import 'package:demo_project/presentation/my_competitions_screen/controller/my_competitions_controller.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_page/controller/profile_deatils_my_participation_controller.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_tab_container_screen/controller/profile_detail_repository.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_tab_container_screen/models/profile_deatils_my_participation_tab_container_model.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_tab_container_screen/models/user_logout_response.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_tab_container_screen/models/user_profile_update_response.dart';
+import 'package:demo_project/presentation/profile_deatils_my_vote_page/controller/profile_deatils_my_vote_controller.dart';
+import 'package:demo_project/presentation/profile_deatils_my_winnings_page/controller/profile_deatils_my_winnings_controller.dart';
+import 'package:demo_project/presentation/voting_screen_page/controller/voting_screen_controller.dart';
+import 'package:demo_project/routes/app_routes.dart';
+import 'package:demo_project/widgets/custom_bottom_bar.dart';
 
 class ProfileDeatilsMyParticipationTabContainerController extends GetxController
     with GetTickerProviderStateMixin {

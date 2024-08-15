@@ -1,6 +1,6 @@
 import 'package:flutter_google_places_sdk/flutter_google_places_sdk.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/presentation/user_management_screen/models/user_item_model.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/presentation/user_management_screen/models/user_item_model.dart';
 
 import '../../../data/models/selectionPopupModel/selection_popup_model.dart';
 

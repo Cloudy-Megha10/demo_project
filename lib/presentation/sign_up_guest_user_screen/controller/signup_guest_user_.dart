@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/presentation/create_account_screen/models/register_response.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/presentation/create_account_screen/models/register_response.dart';
 
 import '../../../data/apiClient/api_provider.dart';
 import '../../../data/apiClient/common_response.dart';

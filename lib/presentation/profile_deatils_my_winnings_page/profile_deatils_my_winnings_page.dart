@@ -7,7 +7,7 @@ import '../../theme/app_style.dart';
 import '../../widgets/custom_image_view.dart';
 import 'controller/profile_deatils_my_winnings_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
+import 'package:demo_project/core/app_export.dart';
 
 // ignore_for_file: must_be_immutable
 class ProfileDeatilsMyWinningsPage extends StatelessWidget {

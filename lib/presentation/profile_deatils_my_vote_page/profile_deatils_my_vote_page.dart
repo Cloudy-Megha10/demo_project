@@ -9,7 +9,7 @@ import '../my_vote_img_listing_screen/controller/my_vote_img_listing_controller.
 import 'controller/profile_deatils_my_vote_controller.dart';
 import 'models/profile_deatils_my_vote_model.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
+import 'package:demo_project/core/app_export.dart';
 
 // ignore_for_file: must_be_immutable
 class ProfileDeatilsMyVotePage extends StatelessWidget {

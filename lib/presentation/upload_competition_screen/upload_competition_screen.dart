@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:intl/intl.dart';
-import 'package:kainok_app/core/utils/date_time_utils.dart';
+import 'package:demo_project/core/utils/date_time_utils.dart';
 
 import '../../core/utils/color_constant.dart';
 import '../../core/utils/flutter_secure_storage.dart';
@@ -16,12 +16,12 @@ import '../../widgets/custom_check_box.dart';
 import '../../widgets/custom_drop_down.dart';
 import '../../widgets/custom_image_view.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_title.dart';
-import 'package:kainok_app/widgets/app_bar/custom_app_bar.dart';
-import 'package:kainok_app/widgets/custom_button.dart';
-import 'package:kainok_app/widgets/custom_icon_button.dart';
-import 'package:kainok_app/widgets/custom_text_form_field.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/widgets/app_bar/appbar_title.dart';
+import 'package:demo_project/widgets/app_bar/custom_app_bar.dart';
+import 'package:demo_project/widgets/custom_button.dart';
+import 'package:demo_project/widgets/custom_icon_button.dart';
+import 'package:demo_project/widgets/custom_text_form_field.dart';
 
 import '../voting_screen_page/controller/voting_screen_controller.dart';
 import 'controller/upload_competition_controller.dart';

@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:kainok_app/presentation/voting_screen_page/models/carousel_competition_response.dart';
-import 'package:kainok_app/presentation/voting_screen_page/models/get_near_by_comp_to_vote_response.dart';
+import 'package:demo_project/presentation/voting_screen_page/models/carousel_competition_response.dart';
+import 'package:demo_project/presentation/voting_screen_page/models/get_near_by_comp_to_vote_response.dart';
 
 import '../../../core/utils/flutter_secure_storage.dart';
 import '../../../data/apiClient/api_provider.dart';

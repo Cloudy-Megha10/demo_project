@@ -9,8 +9,8 @@ import '../forgot_password_screen/controller/forgot_password_controller.dart';
 import 'controller/forgot_password_otp_verification_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/widgets/custom_button.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/widgets/custom_button.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 
 class ForgotPasswordOtpVerificationScreen

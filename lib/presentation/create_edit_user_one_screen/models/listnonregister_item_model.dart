@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:kainok_app/data/models/selectionPopupModel/selection_popup_model.dart';
+import 'package:demo_project/data/models/selectionPopupModel/selection_popup_model.dart';
 
 class ListnonregisterItemModel {
   dynamic userTypeName;

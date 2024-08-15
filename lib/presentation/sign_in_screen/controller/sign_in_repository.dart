@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:kainok_app/presentation/sign_in_screen/models/sign_in_through_google_response.dart';
+import 'package:demo_project/presentation/sign_in_screen/models/sign_in_through_google_response.dart';
 
 import '../../../data/apiClient/api_provider.dart';
 import '../../../data/apiClient/common_response.dart';

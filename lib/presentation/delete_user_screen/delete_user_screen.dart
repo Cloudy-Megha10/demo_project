@@ -4,9 +4,9 @@ import '../../routes/app_routes.dart';
 import '../../theme/app_style.dart';
 import 'controller/delete_user_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/widgets/custom_button.dart';
-import 'package:kainok_app/widgets/custom_text_form_field.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/widgets/custom_button.dart';
+import 'package:demo_project/widgets/custom_text_form_field.dart';
 
 class DeleteUserScreen extends GetWidget<DeleteUserController> {
   @override

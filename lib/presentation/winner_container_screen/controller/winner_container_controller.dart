@@ -1,14 +1,14 @@
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/core/models/geo_location_model.dart';
-import 'package:kainok_app/core/utils/color_constant.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/core/utils/geoLocation_utils.dart';
-import 'package:kainok_app/data/apiClient/common_response.dart';
-import 'package:kainok_app/presentation/winner_container_screen/controller/winner_container_repository.dart';
-import 'package:kainok_app/presentation/winner_container_screen/models/get_winner_response.dart';
-import 'package:kainok_app/presentation/winner_container_screen/models/winner_item_model.dart';
-import 'package:kainok_app/widgets/custom_bottom_bar.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/core/models/geo_location_model.dart';
+import 'package:demo_project/core/utils/color_constant.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/core/utils/geoLocation_utils.dart';
+import 'package:demo_project/data/apiClient/common_response.dart';
+import 'package:demo_project/presentation/winner_container_screen/controller/winner_container_repository.dart';
+import 'package:demo_project/presentation/winner_container_screen/models/get_winner_response.dart';
+import 'package:demo_project/presentation/winner_container_screen/models/winner_item_model.dart';
+import 'package:demo_project/widgets/custom_bottom_bar.dart';
 
 class WinnerContainerController extends GetxController {
   RxList<WinnerItemModel> winnerItemList = RxList();

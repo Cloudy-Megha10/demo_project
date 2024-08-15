@@ -5,7 +5,7 @@ import '../../../widgets/custom_image_view.dart';
 import '../controller/admin_dashboard_controller.dart';
 import '../models/admindashboard_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
+import 'package:demo_project/core/app_export.dart';
 
 // ignore: must_be_immutable
 class AdmindashboardItemWidget extends StatelessWidget {

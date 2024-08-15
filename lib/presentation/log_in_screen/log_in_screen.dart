@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:kainok_app/presentation/create_account_screen/create_account_screen.dart';
+import 'package:demo_project/presentation/create_account_screen/create_account_screen.dart';
 
 import '../../core/utils/color_constant.dart';
 import '../../core/utils/image_constant.dart';

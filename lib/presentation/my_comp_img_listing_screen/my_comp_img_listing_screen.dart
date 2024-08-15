@@ -1,4 +1,4 @@
-import 'package:kainok_app/presentation/my_comp_img_listing_screen/widgets/edit_comp_bottom_sheet.dart';
+import 'package:demo_project/presentation/my_comp_img_listing_screen/widgets/edit_comp_bottom_sheet.dart';
 
 import '../../core/utils/color_constant.dart';
 import '../../core/utils/image_constant.dart';
@@ -7,10 +7,10 @@ import '../../theme/app_decoration.dart';
 import '../../theme/app_style.dart';
 import '../../widgets/custom_image_view.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_image.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_title.dart';
-import 'package:kainok_app/widgets/app_bar/custom_app_bar.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/widgets/app_bar/appbar_image.dart';
+import 'package:demo_project/widgets/app_bar/appbar_title.dart';
+import 'package:demo_project/widgets/app_bar/custom_app_bar.dart';
 
 import 'controller/edit_comp_bottom_sheet_controller.dart';
 import 'controller/my_comp_img_listing_controller.dart';

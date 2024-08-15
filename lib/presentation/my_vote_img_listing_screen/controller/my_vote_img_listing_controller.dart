@@ -1,6 +1,6 @@
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/presentation/my_comp_img_listing_screen/models/my_comp_img_listing_model.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/presentation/my_comp_img_listing_screen/models/my_comp_img_listing_model.dart';
 import 'package:flutter/material.dart';
 
 import '../../../core/utils/color_constant.dart';

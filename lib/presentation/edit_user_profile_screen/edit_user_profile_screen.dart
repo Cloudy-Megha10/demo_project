@@ -1,4 +1,4 @@
-import 'package:kainok_app/presentation/edit_user_profile_screen/widgets/edit_user_profile_search_city.dart';
+import 'package:demo_project/presentation/edit_user_profile_screen/widgets/edit_user_profile_search_city.dart';
 
 import '../../core/utils/color_constant.dart';
 import '../../core/utils/image_constant.dart';
@@ -9,13 +9,13 @@ import '../../theme/app_style.dart';
 import '../../widgets/custom_button.dart';
 import '../../widgets/custom_image_view.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/core/utils/validation_functions.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_image.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_title.dart';
-import 'package:kainok_app/widgets/app_bar/appbar_title.dart';
-import 'package:kainok_app/widgets/app_bar/custom_app_bar.dart';
-import 'package:kainok_app/widgets/custom_text_form_field.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/core/utils/validation_functions.dart';
+import 'package:demo_project/widgets/app_bar/appbar_image.dart';
+import 'package:demo_project/widgets/app_bar/appbar_title.dart';
+import 'package:demo_project/widgets/app_bar/appbar_title.dart';
+import 'package:demo_project/widgets/app_bar/custom_app_bar.dart';
+import 'package:demo_project/widgets/custom_text_form_field.dart';
 
 import '../../widgets/custom_search_view.dart';
 import 'controller/edit_user_profile_controller.dart';

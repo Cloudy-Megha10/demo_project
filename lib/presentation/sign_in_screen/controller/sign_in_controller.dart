@@ -1,11 +1,11 @@
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
-import 'package:kainok_app/presentation/sign_in_screen/controller/sign_in_repository.dart';
-import 'package:kainok_app/presentation/sign_in_screen/models/sign_in_model.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
+import 'package:demo_project/presentation/sign_in_screen/controller/sign_in_repository.dart';
+import 'package:demo_project/presentation/sign_in_screen/models/sign_in_model.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/presentation/sign_in_screen/models/sign_in_response.dart';
-import 'package:kainok_app/presentation/sign_in_screen/models/sign_in_through_google_response.dart';
+import 'package:demo_project/presentation/sign_in_screen/models/sign_in_response.dart';
+import 'package:demo_project/presentation/sign_in_screen/models/sign_in_through_google_response.dart';
 
 import '../../../core/models/geo_location_model.dart';
 import '../../../core/utils/flutter_secure_storage.dart';

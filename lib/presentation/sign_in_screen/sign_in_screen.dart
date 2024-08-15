@@ -3,8 +3,8 @@ import 'dart:io';
 
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/presentation/competitions_screen_page/controller/competitions_screen_controller.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
 import '../../core/utils/color_constant.dart';
@@ -18,11 +18,11 @@ import '../../widgets/custom_image_view.dart';
 import '../voting_screen_page/controller/voting_screen_controller.dart';
 import 'controller/sign_in_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/core/utils/validation_functions.dart';
-import 'package:kainok_app/widgets/custom_button.dart';
-import 'package:kainok_app/widgets/custom_text_form_field.dart';
-import 'package:kainok_app/domain/googleauth/google_auth_helper.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/core/utils/validation_functions.dart';
+import 'package:demo_project/widgets/custom_button.dart';
+import 'package:demo_project/widgets/custom_text_form_field.dart';
+import 'package:demo_project/domain/googleauth/google_auth_helper.dart';
 
 // ignore_for_file: must_be_immutable
 class SignInScreen extends GetWidget<SignInController> {

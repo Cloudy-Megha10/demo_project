@@ -1,11 +1,11 @@
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/core/utils/color_constant.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/data/apiClient/common_response.dart';
-import 'package:kainok_app/presentation/comp_image_listing_screen/models/get_comp_all_img_response.dart';
-import 'package:kainok_app/presentation/comp_image_listing_screen/models/image_listing_model.dart';
-import 'package:kainok_app/routes/app_routes.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/core/utils/color_constant.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/data/apiClient/common_response.dart';
+import 'package:demo_project/presentation/comp_image_listing_screen/models/get_comp_all_img_response.dart';
+import 'package:demo_project/presentation/comp_image_listing_screen/models/image_listing_model.dart';
+import 'package:demo_project/routes/app_routes.dart';
 
 import '../models/image_listing_item_model.dart';
 import 'image_listing_respository.dart';

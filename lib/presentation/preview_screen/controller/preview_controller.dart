@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
-import 'package:kainok_app/core/utils/flutter_secure_storage.dart';
-import 'package:kainok_app/data/apiClient/common_response.dart';
-import 'package:kainok_app/presentation/category_listing_screen/models/vote_item_model.dart';
-import 'package:kainok_app/presentation/my_competitions_screen/controller/my_competitions_controller.dart';
-import 'package:kainok_app/presentation/preview_screen/controller/preview_repository.dart';
-import 'package:kainok_app/presentation/preview_screen/models/preview_model.dart';
-import 'package:kainok_app/presentation/preview_screen/models/preview_vote_response.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_page/controller/profile_deatils_my_participation_controller.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_participation_tab_container_screen/profile_deatils_my_participation_tab_container_screen.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_vote_page/controller/profile_deatils_my_vote_controller.dart';
-import 'package:kainok_app/presentation/profile_deatils_my_winnings_page/controller/profile_deatils_my_winnings_controller.dart';
-import 'package:kainok_app/routes/app_routes.dart';
+import 'package:demo_project/core/utils/flutter_secure_storage.dart';
+import 'package:demo_project/data/apiClient/common_response.dart';
+import 'package:demo_project/presentation/category_listing_screen/models/vote_item_model.dart';
+import 'package:demo_project/presentation/my_competitions_screen/controller/my_competitions_controller.dart';
+import 'package:demo_project/presentation/preview_screen/controller/preview_repository.dart';
+import 'package:demo_project/presentation/preview_screen/models/preview_model.dart';
+import 'package:demo_project/presentation/preview_screen/models/preview_vote_response.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_page/controller/profile_deatils_my_participation_controller.dart';
+import 'package:demo_project/presentation/profile_deatils_my_participation_tab_container_screen/profile_deatils_my_participation_tab_container_screen.dart';
+import 'package:demo_project/presentation/profile_deatils_my_vote_page/controller/profile_deatils_my_vote_controller.dart';
+import 'package:demo_project/presentation/profile_deatils_my_winnings_page/controller/profile_deatils_my_winnings_controller.dart';
+import 'package:demo_project/routes/app_routes.dart';
 
 class PreviewController extends GetxController {
   Rx<PreviewModel> previewModelObj = PreviewModel().obs;

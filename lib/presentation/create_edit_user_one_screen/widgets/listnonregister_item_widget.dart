@@ -1,4 +1,4 @@
-import 'package:kainok_app/widgets/custom_text_form_field.dart';
+import 'package:demo_project/widgets/custom_text_form_field.dart';
 
 import '../../../core/utils/image_constant.dart';
 import '../../../core/utils/size_utils.dart';
@@ -10,8 +10,8 @@ import '../../../widgets/custom_image_view.dart';
 import '../controller/create_edit_user_one_controller.dart';
 import '../models/listnonregister_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/widgets/custom_drop_down.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/widgets/custom_drop_down.dart';
 
 // // ignore: must_be_immutable
 // class ListnonregisterItemWidget extends StatelessWidget {

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:kainok_app/core/app_export.dart';
-import 'package:kainok_app/presentation/category_listing_screen/controller/category_listing_controller.dart';
-import 'package:kainok_app/widgets/custom_image_view.dart';
+import 'package:demo_project/core/app_export.dart';
+import 'package:demo_project/presentation/category_listing_screen/controller/category_listing_controller.dart';
+import 'package:demo_project/widgets/custom_image_view.dart';
 import 'package:swipe_cards/draggable_card.dart';
 import 'package:swipe_cards/swipe_cards.dart';
 

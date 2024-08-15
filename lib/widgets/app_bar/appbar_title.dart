@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kainok_app/core/app_export.dart';
+import 'package:demo_project/core/app_export.dart';
 
 import '../../core/utils/color_constant.dart';
 import '../../theme/app_style.dart';
